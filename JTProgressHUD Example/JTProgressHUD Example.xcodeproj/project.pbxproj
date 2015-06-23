@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BD6DE681B35DCC6009A1201 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD6DE671B35DCC6009A1201 /* main.m */; };
+		3BD6DE6B1B35DCC6009A1201 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD6DE6A1B35DCC6009A1201 /* AppDelegate.m */; };
+		3BD6DE6E1B35DCC6009A1201 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD6DE6D1B35DCC6009A1201 /* ViewController.m */; };
+		3BD6DE711B35DCC6009A1201 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD6DE6F1B35DCC6009A1201 /* Main.storyboard */; };
+		3BD6DE731B35DCC6009A1201 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD6DE721B35DCC6009A1201 /* Images.xcassets */; };
+		3BD6DE761B35DCC6009A1201 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BD6DE741B35DCC6009A1201 /* LaunchScreen.xib */; };
+		3BD6DE821B35DCC6009A1201 /* JTProgressHUD_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD6DE811B35DCC6009A1201 /* JTProgressHUD_ExampleTests.m */; };
+		3BD6DE8E1B35DE1A009A1201 /* JTProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD6DE8D1B35DE1A009A1201 /* JTProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BD6DE7C1B35DCC6009A1201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BD6DE5A1B35DCC6009A1201 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BD6DE611B35DCC6009A1201;
+			remoteInfo = "JTProgressHUD Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BD6DE621B35DCC6009A1201 /* JTProgressHUD Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JTProgressHUD Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD6DE661B35DCC6009A1201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BD6DE671B35DCC6009A1201 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BD6DE691B35DCC6009A1201 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BD6DE6A1B35DCC6009A1201 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BD6DE6C1B35DCC6009A1201 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BD6DE6D1B35DCC6009A1201 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BD6DE701B35DCC6009A1201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BD6DE721B35DCC6009A1201 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BD6DE751B35DCC6009A1201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3BD6DE7B1B35DCC6009A1201 /* JTProgressHUD ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JTProgressHUD ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD6DE801B35DCC6009A1201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BD6DE811B35DCC6009A1201 /* JTProgressHUD_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTProgressHUD_ExampleTests.m; sourceTree = "<group>"; };
+		3BD6DE8C1B35DE1A009A1201 /* JTProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTProgressHUD.h; sourceTree = "<group>"; };
+		3BD6DE8D1B35DE1A009A1201 /* JTProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BD6DE5F1B35DCC6009A1201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD6DE781B35DCC6009A1201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BD6DE591B35DCC6009A1201 = {
+			isa = PBXGroup;
+			children = (
+				3BD6DE8B1B35DDDC009A1201 /* JTProgressHUD */,
+				3BD6DE641B35DCC6009A1201 /* JTProgressHUD Example */,
+				3BD6DE7E1B35DCC6009A1201 /* JTProgressHUD ExampleTests */,
+				3BD6DE631B35DCC6009A1201 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BD6DE631B35DCC6009A1201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BD6DE621B35DCC6009A1201 /* JTProgressHUD Example.app */,
+				3BD6DE7B1B35DCC6009A1201 /* JTProgressHUD ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BD6DE641B35DCC6009A1201 /* JTProgressHUD Example */ = {
+			isa = PBXGroup;
+			children = (
+				3BD6DE691B35DCC6009A1201 /* AppDelegate.h */,
+				3BD6DE6A1B35DCC6009A1201 /* AppDelegate.m */,
+				3BD6DE6C1B35DCC6009A1201 /* ViewController.h */,
+				3BD6DE6D1B35DCC6009A1201 /* ViewController.m */,
+				3BD6DE6F1B35DCC6009A1201 /* Main.storyboard */,
+				3BD6DE721B35DCC6009A1201 /* Images.xcassets */,
+				3BD6DE741B35DCC6009A1201 /* LaunchScreen.xib */,
+				3BD6DE651B35DCC6009A1201 /* Supporting Files */,
+			);
+			path = "JTProgressHUD Example";
+			sourceTree = "<group>";
+		};
+		3BD6DE651B35DCC6009A1201 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BD6DE661B35DCC6009A1201 /* Info.plist */,
+				3BD6DE671B35DCC6009A1201 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BD6DE7E1B35DCC6009A1201 /* JTProgressHUD ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BD6DE811B35DCC6009A1201 /* JTProgressHUD_ExampleTests.m */,
+				3BD6DE7F1B35DCC6009A1201 /* Supporting Files */,
+			);
+			path = "JTProgressHUD ExampleTests";
+			sourceTree = "<group>";
+		};
+		3BD6DE7F1B35DCC6009A1201 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BD6DE801B35DCC6009A1201 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BD6DE8B1B35DDDC009A1201 /* JTProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3BD6DE8C1B35DE1A009A1201 /* JTProgressHUD.h */,
+				3BD6DE8D1B35DE1A009A1201 /* JTProgressHUD.m */,
+			);
+			name = JTProgressHUD;
+			path = ../JTProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BD6DE611B35DCC6009A1201 /* JTProgressHUD Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD6DE851B35DCC6009A1201 /* Build configuration list for PBXNativeTarget "JTProgressHUD Example" */;
+			buildPhases = (
+				3BD6DE5E1B35DCC6009A1201 /* Sources */,
+				3BD6DE5F1B35DCC6009A1201 /* Frameworks */,
+				3BD6DE601B35DCC6009A1201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JTProgressHUD Example";
+			productName = "JTProgressHUD Example";
+			productReference = 3BD6DE621B35DCC6009A1201 /* JTProgressHUD Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BD6DE7A1B35DCC6009A1201 /* JTProgressHUD ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD6DE881B35DCC6009A1201 /* Build configuration list for PBXNativeTarget "JTProgressHUD ExampleTests" */;
+			buildPhases = (
+				3BD6DE771B35DCC6009A1201 /* Sources */,
+				3BD6DE781B35DCC6009A1201 /* Frameworks */,
+				3BD6DE791B35DCC6009A1201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BD6DE7D1B35DCC6009A1201 /* PBXTargetDependency */,
+			);
+			name = "JTProgressHUD ExampleTests";
+			productName = "JTProgressHUD ExampleTests";
+			productReference = 3BD6DE7B1B35DCC6009A1201 /* JTProgressHUD ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BD6DE5A1B35DCC6009A1201 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jakub Truhlar";
+				TargetAttributes = {
+					3BD6DE611B35DCC6009A1201 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					3BD6DE7A1B35DCC6009A1201 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 3BD6DE611B35DCC6009A1201;
+					};
+				};
+			};
+			buildConfigurationList = 3BD6DE5D1B35DCC6009A1201 /* Build configuration list for PBXProject "JTProgressHUD Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BD6DE591B35DCC6009A1201;
+			productRefGroup = 3BD6DE631B35DCC6009A1201 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BD6DE611B35DCC6009A1201 /* JTProgressHUD Example */,
+				3BD6DE7A1B35DCC6009A1201 /* JTProgressHUD ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BD6DE601B35DCC6009A1201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD6DE711B35DCC6009A1201 /* Main.storyboard in Resources */,
+				3BD6DE761B35DCC6009A1201 /* LaunchScreen.xib in Resources */,
+				3BD6DE731B35DCC6009A1201 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD6DE791B35DCC6009A1201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BD6DE5E1B35DCC6009A1201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD6DE6E1B35DCC6009A1201 /* ViewController.m in Sources */,
+				3BD6DE6B1B35DCC6009A1201 /* AppDelegate.m in Sources */,
+				3BD6DE8E1B35DE1A009A1201 /* JTProgressHUD.m in Sources */,
+				3BD6DE681B35DCC6009A1201 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD6DE771B35DCC6009A1201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD6DE821B35DCC6009A1201 /* JTProgressHUD_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BD6DE7D1B35DCC6009A1201 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BD6DE611B35DCC6009A1201 /* JTProgressHUD Example */;
+			targetProxy = 3BD6DE7C1B35DCC6009A1201 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BD6DE6F1B35DCC6009A1201 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BD6DE701B35DCC6009A1201 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BD6DE741B35DCC6009A1201 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BD6DE751B35DCC6009A1201 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BD6DE831B35DCC6009A1201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BD6DE841B35DCC6009A1201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BD6DE861B35DCC6009A1201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JTProgressHUD Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BD6DE871B35DCC6009A1201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JTProgressHUD Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3BD6DE891B35DCC6009A1201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JTProgressHUD ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JTProgressHUD Example.app/JTProgressHUD Example";
+			};
+			name = Debug;
+		};
+		3BD6DE8A1B35DCC6009A1201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JTProgressHUD ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JTProgressHUD Example.app/JTProgressHUD Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BD6DE5D1B35DCC6009A1201 /* Build configuration list for PBXProject "JTProgressHUD Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD6DE831B35DCC6009A1201 /* Debug */,
+				3BD6DE841B35DCC6009A1201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD6DE851B35DCC6009A1201 /* Build configuration list for PBXNativeTarget "JTProgressHUD Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD6DE861B35DCC6009A1201 /* Debug */,
+				3BD6DE871B35DCC6009A1201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD6DE881B35DCC6009A1201 /* Build configuration list for PBXNativeTarget "JTProgressHUD ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD6DE891B35DCC6009A1201 /* Debug */,
+				3BD6DE8A1B35DCC6009A1201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BD6DE5A1B35DCC6009A1201 /* Project object */;
+}
