@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "JTProgressHUD"
   s.version      = "1.0.0"
-  s.summary      = "**JTProgressHUD** is the new **HUD** designed to show **YOUR** views (eg. UIImageView animations) in the **HUD style** **with one line of code**."
+  s.summary      = "**JTProgressHUD** is the new **HUD** designed to show **YOUR** views in the **HUD style** **with one line of code**."
 
   s.description  = <<-DESC
                    **JTProgressHUD** is the new **HUD** designed to show **YOUR** views (eg. UIImageView animations) in the **HUD style** **with one line of code**.
