@@ -127,7 +127,7 @@ static CGFloat kBorderWidth = 3.0;
     // View
     if (view) {
         sharedInstance.customView.center = sharedInstance.backgroundView.center;
-        [[UIApplication sharedApplication].keyWindow.rootViewController.view addSubview:sharedInstance.customView];
+        [[UIApplication sharedApplication].keyWindow addSubview:sharedInstance.customView];
     } else {
         [sharedInstance createDefaultLoadingView];
     }
@@ -210,8 +210,8 @@ static CGFloat kBorderWidth = 3.0;
 
 - (void)addBackgroundBelowHUD {
     [sharedInstance.backgroundView removeFromSuperview];
-    [[UIApplication sharedApplication].keyWindow.rootViewController.view addSubview:sharedInstance.backgroundView];
-    [[UIApplication sharedApplication].keyWindow.rootViewController.view bringSubviewToFront:sharedInstance.backgroundView];
+    [[UIApplication sharedApplication].keyWindow addSubview:sharedInstance.backgroundView];
+    [[UIApplication sharedApplication].keyWindow bringSubviewToFront:sharedInstance.backgroundView];
 }
 
 - (UIImage *)jt_imageWithRadialGradientSize:(CGSize)size innerColor:(UIColor *)innerColor outerColor:(UIColor *)outerColor center:(CGPoint)center radius:(CGFloat)radius {
@@ -262,8 +262,8 @@ static CGFloat kBorderWidth = 3.0;
     sharedInstance.staticCircle.center = sharedInstance.backgroundView.center;
     sharedInstance.movingCircle.center = sharedInstance.backgroundView.center;
     
-    [[UIApplication sharedApplication].keyWindow.rootViewController.view addSubview:sharedInstance.movingCircle];
-    [[UIApplication sharedApplication].keyWindow.rootViewController.view addSubview:sharedInstance.staticCircle];
+    [[UIApplication sharedApplication].keyWindow addSubview:sharedInstance.movingCircle];
+    [[UIApplication sharedApplication].keyWindow addSubview:sharedInstance.staticCircle];
     
     // Animation
     CGFloat delay = (sharedInstance.transition != JTProgressHUDTransitionNone) ? kAnimationDuration : 0.0;
