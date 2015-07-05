@@ -54,6 +54,9 @@ JTProgressHUD is designed as a **singleton** so you don't have to care about it'
 
 ## Changelog
 
+### v1.0.1 - 07.05.15
+- [**UPDATE**] Merged with pull request
+
 ### v1.0.0 - 06.23.15
 - [**NEW**] Initial commit
 
