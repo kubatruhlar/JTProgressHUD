@@ -42,4 +42,6 @@ typedef NS_ENUM(NSInteger, JTProgressHUDView) {
 + (void)hide;
 + (void)hideWithTransition:(JTProgressHUDTransition)transition;
 
++ (BOOL)isVisible;
+
 @end

@@ -54,10 +54,6 @@ static CGFloat kBorderWidth = 3.0;
     [sharedInstance createObservers];
 }
 
-- (BOOL)isVisible {
-    return (sharedInstance.alpha == 1.0);
-}
-
 - (void)createObservers {
     [[NSNotificationCenter defaultCenter] addObserver:sharedInstance selector:@selector(changeFrame) name:UIDeviceOrientationDidChangeNotification object:nil];
 }
@@ -71,6 +67,15 @@ static CGFloat kBorderWidth = 3.0;
 
 - (void)dealloc {
     [[NSNotificationCenter defaultCenter] removeObserver:sharedInstance];
+}
+
+#pragma mark - Visibility
+- (BOOL)isVisible {
+    return (sharedInstance.alpha == 1.0);
+}
+
++ (BOOL)isVisible {
+    return [sharedInstance isVisible];
 }
 
 #pragma mark - Displaying
