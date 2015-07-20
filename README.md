@@ -53,6 +53,8 @@ JTProgressHUD is designed as a **singleton** so you don't have to care about it'
 
 + (void)hide;
 + (void)hideWithTransition:;
+
++ (BOOL)isVisible;
 ```
 
 
