@@ -13,7 +13,7 @@
 
 
 ## Installation
-There are two ways to add the **JTImageButton** library to your project. Add it as a regular library or install it through **CocoaPods**.
+There are two ways to add the **JTProgressHUD** library to your project. Add it as a regular library or install it through **CocoaPods**.
 
 `pod 'JTProgressHUD’`
 
