@@ -169,9 +169,7 @@ static CGFloat kBorderWidth = 3.0;
         return;
     }
     
-    CGFloat delay = (transition != JTProgressHUDTransitionNone) ? kAnimationDuration : 0.0;
-    
-    [UIView animateWithDuration:delay animations:^{
+    void(^animationBlock)() = ^{
         sharedInstance.backgroundView.alpha = 0.0;
         
         if (sharedInstance.transition == JTProgressHUDTransitionDefault) {
@@ -184,14 +182,27 @@ static CGFloat kBorderWidth = 3.0;
         sharedInstance.customView.alpha = 0.0;
         sharedInstance.staticCircle.alpha = 0.0;
         sharedInstance.movingCircle.alpha = 0.0;
-        
-    } completion:^(BOOL finished) {
+    };
+    
+    void(^cleanupBlock)() = ^{
         [sharedInstance.customView removeFromSuperview];
         [sharedInstance.staticCircle removeFromSuperview];
         [sharedInstance.movingCircle removeFromSuperview];
         [sharedInstance.backgroundView removeFromSuperview];
         sharedInstance.alpha = 0.0;
-    }];
+    };
+    
+    if (transition != JTProgressHUDTransitionNone) {
+        [UIView animateWithDuration:kAnimationDuration animations:^{
+            animationBlock();
+        } completion:^(BOOL finished) {
+            cleanupBlock();
+        }];
+    }
+    else {
+        animationBlock();
+        cleanupBlock();
+    }
 }
 
 #pragma mark - JTProgressHUDStyle
