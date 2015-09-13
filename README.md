@@ -57,18 +57,6 @@ JTProgressHUD is designed as a **singleton** so you don't have to care about it'
 + (BOOL)isVisible;
 ```
 
-
-## Changelog
-
-### v1.0.2 - 07.06.15
-- [**UPDATE**] A class method added
-
-### v1.0.1 - 07.05.15
-- [**UPDATE**] Merged with pull request
-
-### v1.0.0 - 06.23.15
-- [**NEW**] Initial commit
-
 ## Author
 This library is open-sourced by [Jakub Truhlar](http://kubatruhlar.cz).
     
