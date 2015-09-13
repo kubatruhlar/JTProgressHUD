@@ -152,12 +152,21 @@ static CGFloat kBorderWidth = 3.0;
         default:
             break;
     }
-    CGFloat delay = (transition != JTProgressHUDTransitionNone) ? kAnimationDuration : 0.0;
-    [UIView animateWithDuration:delay animations:^{
+    
+    void(^animationBlock)() = ^{
         sharedInstance.customView.alpha = 1.0;
         sharedInstance.customView.transform = CGAffineTransformMakeScale(1.0, 1.0);
         sharedInstance.backgroundView.alpha = 1.0;
-    } completion:nil];
+    };
+    
+    if (transition != JTProgressHUDTransitionNone) {
+        [UIView animateWithDuration:kAnimationDuration animations:^{
+            animationBlock();
+        } completion:nil];
+        
+    } else {
+        animationBlock();
+    }
 }
 
 + (void)hide {
@@ -195,11 +204,12 @@ static CGFloat kBorderWidth = 3.0;
     if (transition != JTProgressHUDTransitionNone) {
         [UIView animateWithDuration:kAnimationDuration animations:^{
             animationBlock();
+            
         } completion:^(BOOL finished) {
             cleanupBlock();
         }];
-    }
-    else {
+        
+    } else {
         animationBlock();
         cleanupBlock();
     }
