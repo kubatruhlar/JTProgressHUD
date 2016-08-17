@@ -9,8 +9,11 @@
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, JTProgressHUDStyle) {
-    JTProgressHUDStyleDefault = 0,
-    JTProgressHUDStyleGradient
+	JTProgressHUDStyleDefault = 0,
+	JTProgressHUDStyleGradient,
+	JTProgressHUDStyleBlurLight,
+	JTProgressHUDStyleBlurExtraLight,
+	JTProgressHUDStyleBlurDark
 };
 
 typedef NS_ENUM(NSInteger, JTProgressHUDTransition) {
