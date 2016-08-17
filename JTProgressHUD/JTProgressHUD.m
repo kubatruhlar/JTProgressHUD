@@ -125,6 +125,18 @@ static CGFloat kBorderWidth = 3.0;
             [sharedInstance createGradientBackground];
             [sharedInstance addBackgroundBelowHUD];
             break;
+		case JTProgressHUDStyleBlurLight:
+			[sharedInstance createBlurBackgroundWithStyle:UIBlurEffectStyleLight];
+			[sharedInstance addBackgroundBelowHUD];
+			break;
+		case JTProgressHUDStyleBlurExtraLight:
+			[sharedInstance createBlurBackgroundWithStyle:UIBlurEffectStyleExtraLight];
+			[sharedInstance addBackgroundBelowHUD];
+			break;
+		case JTProgressHUDStyleBlurDark:
+			[sharedInstance createBlurBackgroundWithStyle:UIBlurEffectStyleDark];
+			[sharedInstance addBackgroundBelowHUD];
+			break;
         default:
             break;
     }
@@ -232,6 +244,18 @@ static CGFloat kBorderWidth = 3.0;
     sharedInstance.backgroundView.contentMode = UIViewContentModeScaleAspectFill;
     sharedInstance.backgroundView.alpha = 0.0;
     sharedInstance.backgroundView.center = [UIApplication sharedApplication].keyWindow.center;
+}
+
+- (void)createBlurBackgroundWithStyle:(UIBlurEffectStyle)style {
+	sharedInstance.backgroundView = [[UIImageView alloc] initWithFrame:[UIApplication sharedApplication].keyWindow.bounds];
+	sharedInstance.backgroundView.backgroundColor = [UIColor clearColor];
+	sharedInstance.backgroundView.userInteractionEnabled = true;
+	sharedInstance.backgroundView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+	sharedInstance.backgroundView.alpha = 0.0;
+	
+	UIVisualEffectView *blurView = [[UIVisualEffectView alloc] initWithEffect: [UIBlurEffect effectWithStyle: style]];
+	blurView.frame = sharedInstance.backgroundView.bounds;
+	[sharedInstance.backgroundView addSubview:blurView];
 }
 
 - (void)addBackgroundBelowHUD {
